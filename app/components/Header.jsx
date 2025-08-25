@@ -10,7 +10,7 @@ const Header = () => {
         Good day! I'm <span className='font-bold'>Marielle C. Paitan</span> and aspiring to be
       </h3>
       <div className= "w-72 h-72 rounded-full overflow-hidden border-4 border-[#393E46]">
-        <Image src='/profile.jpg' alt='' width={300} height={300} className='object-cover w-full h-full rounded-full'></Image>
+        <Image src='/profile.png' alt='' width={300} height={300} className='object-cover w-full h-full rounded-full'></Image>
       </div>
         <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-[80px] xl:text-[100px] font-bold text-center">
             <span className='text-[#393E46]'>JR. DEVELOPER<br></br></span><span className="text-transparent stroke-text">UI/UX DESIGNER</span>
