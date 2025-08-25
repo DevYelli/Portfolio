@@ -92,11 +92,6 @@ const Sofe = () => {
                 screen sizes. Despite its limitations, this project allowed me to experiment with ReactJS, CSS, and basic object-oriented concepts while 
                 building a themed interface. It was a valuable step in improving my coding foundations, even if the outcome was a simple and non-dynamic site.
             </p>
-                <div className="flex justify-center mt-2">
-                    <a href='https://umbreon-oopr.netlify.app/' target='_blank' rel="noopener noreferrer" className='text-center border-2 border-black rounded-lg 
-                    inline-block px-6 py-3 text-lg font-medium hover:bg-black hover:text-white transition'>Check here</a>
-                </div>
-                    
                 <div className="border-4 border-[#393E46] bg-[#929AAB] rounded-2xl p-8">
                     <Slider {...settings} className="w-full">
                         {[
