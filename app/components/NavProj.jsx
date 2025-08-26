@@ -53,8 +53,7 @@ const NavProj = () => {
           <Image
             src="/close.png"
             alt=""
-            width={50}
-            height={40}
+            width={30} height={30}
             className="cursor-pointer"
           />
         </div>
