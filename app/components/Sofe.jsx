@@ -26,7 +26,7 @@ const Sofe = () => {
     dots: true,
     infinite: true,
     speed: 400,
-    slidesToShow: 3,
+    slidesToShow: 1,
     slidesToScroll: 1,
     initialSlide: 0,
     responsive: [
@@ -64,7 +64,7 @@ const Sofe = () => {
         I also created a simple website using HTML and CSS, further enhancing the project’s functionality and accessibility.
       </p>
 
-        <div className="border-4 border-[#393E46] bg-[#929AAB] rounded-2xl p-8">
+        <div className="border-4 border-[#393E46] rounded-2xl p-8">
             <Slider {...settings} className="w-full">
                 {[
                 { src: "/sofe/splash.jpg", title: ""},
@@ -78,7 +78,7 @@ const Sofe = () => {
                 { src: "/sofe/attend.jpg", title: ""},
                 { src: "/sofe/example.jpg", title: "", desc: "" },
                 ].map((item, index) => (
-                <div key={index} className="flex flex-col items-center text-center">
+                <div key={index} className="items-center text-center">
                     <Image
                     src={item.src}
                     alt={item.title}
@@ -101,7 +101,7 @@ const Sofe = () => {
                 screen sizes. Despite its limitations, this project allowed me to experiment with ReactJS, CSS, and basic object-oriented concepts while 
                 building a themed interface. It was a valuable step in improving my coding foundations, even if the outcome was a simple and non-dynamic site.
             </p>
-                <div className="border-4 border-[#393E46] bg-[#929AAB] rounded-2xl p-8">
+                <div className="border-4 border-[#393E46] rounded-2xl p-8">
                     <Slider {...settings} className="w-full">
                         {[
                         { src: "/webdev/login.png", title: ""},
@@ -142,7 +142,7 @@ const Sofe = () => {
                         inline-block px-6 py-3 text-lg font-medium hover:bg-black hover:text-white transition'>Watch the demo here</a>
                     </div>
                     
-                <div className="border-4 border-[#393E46] bg-[#929AAB] rounded-2xl p-8">
+                <div className="border-4 border-[#393E46] rounded-2xl p-8">
                     <Slider {...settings} className="w-full">
                         {[
                         { src: "/gamedev/main.jpg", title: ""},
@@ -171,7 +171,7 @@ const Sofe = () => {
                 Physical Therapy students. Using Canva, I crafted intuitive and visually engaging interfaces that presented reliable anatomical 
                 content, ensuring an interactive and user-friendly experience for educational purposes.
             </p>             
-                <div className="border-4 border-[#393E46] bg-[#929AAB] rounded-2xl p-8">
+                <div className="border-4 border-[#393E46] rounded-2xl p-8">
                     <Slider {...settings} className="w-full">
                         {[
                         { src: "/thesis/1.jpg", title: ""},
