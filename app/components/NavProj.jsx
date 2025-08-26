@@ -49,7 +49,7 @@ const NavProj = () => {
             menuOpen ? "translate-y-0" : "-translate-y-full"
           }`}
       >
-        <div className="absolute right-5 top-6" onClick={() => setMenuOpen(false)}>
+        <div className="absolute right-10 top-6" onClick={() => setMenuOpen(false)}>
           <Image
             src="/close.png"
             alt=""
