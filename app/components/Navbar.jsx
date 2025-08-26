@@ -39,8 +39,8 @@ const Navbar = () => {
             menuOpen ? "translate-y-0" : "-translate-y-full"
           }`}>
                 
-                <div className='absolute right-5 top-6' onClick={() => setMenuOpen(false)}>
-                    <Image src='/close.png' alt='' width={50} height={40} className='cursor-pointer'></Image>
+                <div className='absolute right-10 top-6' onClick={() => setMenuOpen(false)}>
+                    <Image src='/close.png' alt='' width={30} height={30} className='cursor-pointer'></Image>
                 </div>
                 
                 <li><a href='#top' onClick={() => setMenuOpen(false)} >Home</a></li>
