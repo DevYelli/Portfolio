@@ -6,7 +6,7 @@ import { ReactTyped } from 'react-typed';
 const Header = () => {
   return (
     <div className='w-11/12 max-w-5xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4'>
-      <h3 className='flex items-end gap-2 text-xl md:text-2xl mb-3 font-alice'>
+      <h3 className='flex items-end gap-2 text-xl md:text-2xl mb-3 font-alice mt-40'>
         Good day! I'm <span className='font-bold'>Marielle C. Paitan</span> and aspiring to be
       </h3>
       <div className= "w-72 h-72 rounded-full overflow-hidden border-4 border-[#393E46]">
