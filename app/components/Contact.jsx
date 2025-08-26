@@ -20,7 +20,7 @@ import React, { useState } from "react";
             const data = await response.json();
 
                 if (data.success) {
-                setResult("✅ Form Submitted Successfully");
+                setResult("Form Submitted Successfully");
                 setShowPopup(true);
                 event.target.reset();
 
