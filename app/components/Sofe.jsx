@@ -3,10 +3,10 @@
 import React, { useState } from 'react'
 import Image from 'next/image'
 import dynamic from 'next/dynamic'
-import 'slick-carousel/slick/slick.css'
-import 'slick-carousel/slick/slick-theme.css'
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
-const Slider = dynamic(() => import('react-slick'), { ssr: false })
+const Slider = dynamic(() => import("react-slick"), { ssr: false });
 
 function Arrow(props) {
   const { className, style, onClick } = props;
@@ -22,27 +22,36 @@ function Arrow(props) {
 const Sofe = () => {
   const [activeIndex, setActiveIndex] = useState(0);
 
-  var settings = {
+  const settings = {
     dots: true,
-    infinite: false,
+    infinite: true,
     speed: 400,
     slidesToShow: 3,
     slidesToScroll: 1,
     initialSlide: 0,
     responsive: [
       {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 2
-        }
+        breakpoint: 1024, // tablets and smaller
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
+          },
       },
       {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 1
-        }
-      }
-    ]
+        breakpoint: 900, // small tablets / large phones
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+          },
+      },
+      {
+        breakpoint: 600, // most phones
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+          },
+      },
+    ],
   };
 
   return (
@@ -155,7 +164,7 @@ const Sofe = () => {
                 </div>
         </div>
 
-        <div id="thesis" className=" py-60 flex flex-col gap-6">
+        <div id="thesis" className=" py-40 flex flex-col gap-6">
             <h2 className="text-center text-5xl">Thesis UI/UX Design</h2>
             <p className="text-justify max-w-[1500px] mx-auto mt-2 mb-12 text-[18px]">
                 As a UI/UX Designer, I simply designed the UI/UX of Skelatomy, an AR mobile app created as a supplementary learning tool for 
