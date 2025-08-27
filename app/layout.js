@@ -21,7 +21,7 @@ const michael = localFont({
 });
 
 export const metadata = {
-  title: "Marielle Portfolio"
+  title: "Marielle's Portfolio"
 };
 
 export default function RootLayout({ children }) {
